@@ -20,6 +20,7 @@ export const useSignup = () => {
       } else {
         await updateProfile(auth.currentUser, {
           displayName,
+          phoneNumber: "+93794842517",
         });
         //dispatch user login
         dispatch({ type: "LOGIN", payload: res.user });
