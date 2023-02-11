@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function TransactionList({transactions}) {
+  const [data, setData] = useState('')
+  
   return (
-    <div>TransactionList</div>
+    <div></div>
   )
 }
